@@ -1,0 +1,8 @@
+BrainF*ck interpreter with the ability to translate BrainF*ck source
+code into C code.
+
+Usage:
+  BrainHask [-h | --help | --toC=<dir>] [<files>...]
+
+Options:
+  -o <dir> --toC=<dir> specify directory where C code should be placed
