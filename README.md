@@ -7,7 +7,7 @@ How To Build
 ==============
 Build using a [cabal-sandbox](https://www.haskell.org/cabal/users-guide/installing-packages.html#developing-with-sandboxes)(recommended)
 ```
-$ git clone --branch haskell --single-branch https://github.com/d-dorazio/mindblown.git haskell
+$ git clone --branch hs --single-branch https://github.com/d-dorazio/mindblown.git BrainHask
 $ cd BraiHask/
 $ cabal sandbox init
 $ cabal install --only-dependencies
