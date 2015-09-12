@@ -1,0 +1,14 @@
+site_name:
+    brainpy
+
+repo_url:
+    https://github.com/d-dorazio/brainpy
+
+site_author:
+    Daniele D\'Orazio
+
+theme:
+    readthedocs
+
+pages:
+    - 'Introduction': 'index.md'
