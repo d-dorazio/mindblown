@@ -22,17 +22,21 @@ int main(int argc, char *argv[]) {
 void interpret_cli() {
   State state;
   std::string line;
+  std::string tmpline;
 
   while (true) {
     std::cout << "> ";
 
-    std::getline(std::cin, line);
+    std::getline(std::cin, tmpline);
 
-    if (line == "quit")
+    line += tmpline;
+
+    if (tmpline == "quit")
       break;
 
-    if (line.back() != '\\') {
+    if (tmpline.back() != '\\') {
       state = interpret(parse(line), state);
+      line.clear();
     }
   }
 }
