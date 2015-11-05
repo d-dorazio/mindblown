@@ -1,0 +1,12 @@
+[package]
+name = "brainrs"
+version = "0.1.0"
+authors = ["daniele"]
+
+[lib]
+name = "libbrainrs"
+path = "src/libbrainrs/lib.rs"
+
+[[bin]]
+name = "brainrs"
+path = "src/main.rs"
